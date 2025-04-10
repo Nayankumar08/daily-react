@@ -4,6 +4,11 @@
 // console.log(sum);
 
 //2
-const ModuleExportsVsExports = require("./ModuleExportsVsExports");
-ModuleExportsVsExports.sayhello();
-ModuleExportsVsExports.saythanks();
+// const ModuleExportsVsExports = require("./ModuleExports");
+// ModuleExports.sayhello();
+// ModuleExports.saythanks();
+
+//3
+const exp = require("./Exports");
+exp.sayhello();
+exp.saythanks();
